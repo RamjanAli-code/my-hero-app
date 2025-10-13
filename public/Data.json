@@ -1,0 +1,433 @@
+[{
+        "id": 1,
+        "title": "Task Manager Pro",
+        "companyName": "TechSoft Ltd",
+        "image": "https://picsum.photos/id/101/200/300",
+        "description": "Organize your work and personal tasks efficiently. This app helps you create projects, set deadlines, assign priorities, and track progress effectively. Collaborate with team members in real-time and share updates instantly. Customize notifications and reminders to never miss important deadlines. Analyze your performance with detailed reports and insights. The intuitive interface ensures beginners can start managing tasks right away. Stay productive and in control of all your tasks with ease.",
+        "size": 35,
+        "downloads": "502K",
+        "reviews": "1.2K",
+        "ratingAvg": "4.2",
+        "ratings": [
+            { "name": "1 star", "count": 50 },
+            { "name": "2 star", "count": 120 },
+            { "name": "3 star", "count": 250 },
+            { "name": "4 star", "count": 420 },
+            { "name": "5 star", "count": 405 }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Quick Notes",
+        "companyName": "InnoWare Inc",
+        "image": "https://picsum.photos/id/102/200/300",
+        "description": "Lightweight notes app with cloud sync. Create and organize notes effortlessly. Add images, voice memos, and files to your notes. Tag and color-code for easy categorization. Pin important notes for quick access. Collaborate with friends or colleagues by sharing notes. Search notes instantly using powerful search tools. Access your notes across all devices seamlessly. Keep your ideas organized and safe anytime, anywhere.",
+        "size": 20,
+        "downloads": "802K",
+        "reviews": "845",
+        "ratingAvg": "4.5",
+        "ratings": [
+            { "name": "1 star", "count": 40 },
+            { "name": "2 star", "count": 90 },
+            { "name": "3 star", "count": 150 },
+            { "name": "4 star", "count": 260 },
+            { "name": "5 star", "count": 305 }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Health Tracker AI",
+        "companyName": "NextGen Apps",
+        "image": "https://picsum.photos/id/103/200/300",
+        "description": "AI-powered health tracking app. Track your daily activity, calorie intake, and sleep patterns. Get personalized health recommendations and insights. Monitor workouts, heart rate, and other vital statistics effortlessly. Connect wearable devices to get real-time feedback. Receive weekly summaries and progress reports. Stay motivated with reminders and achievement tracking. Optimize your fitness journey and maintain a healthier lifestyle effortlessly.",
+        "size": 42,
+        "downloads": "1.5M",
+        "reviews": "1.4K",
+        "ratingAvg": "4.7",
+        "ratings": [
+            { "name": "1 star", "count": 30 },
+            { "name": "2 star", "count": 75 },
+            { "name": "3 star", "count": 200 },
+            { "name": "4 star", "count": 500 },
+            { "name": "5 star", "count": 655 }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Secure Cloud",
+        "companyName": "CloudByte",
+        "image": "https://picsum.photos/id/104/200/300",
+        "description": "Secure cloud storage with advanced encryption. Store all your files safely and access them from any device. Share documents with colleagues or friends securely. Automatic backups ensure your data is never lost. Manage file permissions and maintain full control over access. Real-time synchronization keeps your devices updated instantly. Access photos, videos, and documents quickly and safely. Protect sensitive information and enjoy peace of mind.",
+        "size": 50,
+        "downloads": "320K",
+        "reviews": "960",
+        "ratingAvg": "4.1",
+        "ratings": [
+            { "name": "1 star", "count": 60 },
+            { "name": "2 star", "count": 120 },
+            { "name": "3 star", "count": 230 },
+            { "name": "4 star", "count": 300 },
+            { "name": "5 star", "count": 250 }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "EduLearn",
+        "companyName": "BrightFuture Labs",
+        "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+        "description": "Educational app with interactive quizzes and progress tracking. Learn different subjects in an engaging way. Test your knowledge with interactive quizzes. Track improvement over time with analytics. Challenge friends and compare scores. Save progress in the cloud to access anytime. Receive feedback and personalized recommendations. Boost learning efficiency and retain information better.",
+        "size": 28,
+        "downloads": "210K",
+        "reviews": "650",
+        "ratingAvg": "4.3",
+        "ratings": [
+            { "name": "1 star", "count": 45 },
+            { "name": "2 star", "count": 85 },
+            { "name": "3 star", "count": 160 },
+            { "name": "4 star", "count": 200 },
+            { "name": "5 star", "count": 160 }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Music StreamX",
+        "companyName": "SoundWave Ltd",
+        "image": "https://picsum.photos/id/106/200/300",
+        "description": "Stream millions of songs online. Create playlists and share them with friends. Discover trending music and new artists easily. Listen offline by downloading favorite songs. Enjoy high-quality audio with no interruptions. Follow artists and get notifications for new releases. Get personalized music recommendations daily. Explore different genres and moods anytime. Perfect for music lovers of all ages.",
+        "size": 60,
+        "downloads": "2.5M",
+        "reviews": "3.2K",
+        "ratingAvg": "4.6",
+        "ratings": [
+            { "name": "1 star", "count": 120 },
+            { "name": "2 star", "count": 200 },
+            { "name": "3 star", "count": 400 },
+            { "name": "4 star", "count": 900 },
+            { "name": "5 star", "count": 1580 }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Travel Buddy",
+        "companyName": "GlobeTech",
+        "image": "https://picsum.photos/id/107/200/300",
+        "description": "Plan trips and find the best destinations. Explore new cities with travel guides and maps. Create itineraries with hotels, flights, and activities. Share your travel plans with friends. Get safety tips and local insights. Keep track of expenses and budgets. Save memories with photos and notes. Receive personalized travel recommendations. Make every trip hassle-free and enjoyable.",
+        "size": 38,
+        "downloads": "470K",
+        "reviews": "870",
+        "ratingAvg": "4.0",
+        "ratings": [
+            { "name": "1 star", "count": 90 },
+            { "name": "2 star", "count": 100 },
+            { "name": "3 star", "count": 200 },
+            { "name": "4 star", "count": 250 },
+            { "name": "5 star", "count": 230 }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Foodie Express",
+        "companyName": "YumSoft",
+        "image": "https://picsum.photos/id/108/200/300",
+        "description": "Order food online from top restaurants. Browse menus quickly and easily. Customize orders with preferences and add-ons. Track deliveries in real-time. Save favorite restaurants for future orders. Get exclusive discounts and deals. Rate dishes and restaurants. Enjoy delicious meals at your doorstep anytime. Stay updated with trending food options and offers.",
+        "size": 45,
+        "downloads": "1.2M",
+        "reviews": "1.9K",
+        "ratingAvg": "4.4",
+        "ratings": [
+            { "name": "1 star", "count": 150 },
+            { "name": "2 star", "count": 200 },
+            { "name": "3 star", "count": 400 },
+            { "name": "4 star", "count": 500 },
+            { "name": "5 star", "count": 650 }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Fitness Plus",
+        "companyName": "BodySync",
+        "image": "https://picsum.photos/id/109/200/300",
+        "description": "Track workouts and stay fit with advanced metrics. Create personalized routines, monitor heart rate, and set fitness goals. Receive feedback on progress and tips for improvement. Connect wearable devices for real-time tracking. Stay motivated with achievement badges and reminders. Analyze past performance with detailed reports. Join challenges and compete with friends. Optimize your fitness journey and maintain a healthier lifestyle.",
+        "size": 40,
+        "downloads": "1.7M",
+        "reviews": "2.2K",
+        "ratingAvg": "4.5",
+        "ratings": [
+            { "name": "1 star", "count": 80 },
+            { "name": "2 star", "count": 160 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 700 },
+            { "name": "5 star", "count": 960 }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "ShopEasy",
+        "companyName": "MarketX",
+        "image": "https://picsum.photos/id/110/200/300",
+        "description": "Online shopping made simple. Browse products from top brands easily. Compare prices and read reviews. Secure checkout and multiple payment options. Track orders and delivery status. Save favorites for later purchase. Receive notifications for deals and discounts. Enjoy personalized recommendations and offers. Shop anytime, anywhere with a user-friendly interface.",
+        "size": 55,
+        "downloads": "2.2M",
+        "reviews": "3.2K",
+        "ratingAvg": "4.2",
+        "ratings": [
+            { "name": "1 star", "count": 160 },
+            { "name": "2 star", "count": 220 },
+            { "name": "3 star", "count": 420 },
+            { "name": "4 star", "count": 900 },
+            { "name": "5 star", "count": 1500 }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "MovieTime",
+        "companyName": "CineSoft",
+        "image": "https://picsum.photos/id/111/200/300",
+        "description": "Watch movies and series online. Stream the latest blockbusters and timeless classics. Create personalized watchlists and receive recommendations. Download content to watch offline anytime. Rate and review your favorite movies. Share your viewing experience with friends. Get notifications for new releases and trending shows. Enjoy high-quality video and audio. Never miss a show you love.",
+        "size": 75,
+        "downloads": "3M",
+        "reviews": "4.1K",
+        "ratingAvg": "4.6",
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 300 },
+            { "name": "3 star", "count": 500 },
+            { "name": "4 star", "count": 1200 },
+            { "name": "5 star", "count": 1900 }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Photo Editor Pro",
+        "companyName": "PixelWorks",
+        "image": "https://picsum.photos/id/112/200/300",
+        "description": "Advanced photo editing tools for everyone. Apply filters, adjust colors, crop, and enhance images easily. Add text, stickers, and overlays to photos. Create collages and share on social media. Undo and redo edits with a single click. Access tutorials and tips for creative editing. Save photos in high resolution. Organize images into albums. Turn ordinary photos into masterpieces effortlessly.",
+        "size": 65,
+        "downloads": "1.8M",
+        "reviews": "2.7K",
+        "ratingAvg": "4.3",
+        "ratings": [
+            { "name": "1 star", "count": 150 },
+            { "name": "2 star", "count": 200 },
+            { "name": "3 star", "count": 400 },
+            { "name": "4 star", "count": 850 },
+            { "name": "5 star", "count": 1100 }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Weather Now",
+        "companyName": "SkySoft",
+        "image": "https://picsum.photos/id/113/200/300",
+        "description": "Real-time weather updates at your fingertips. Track temperature, humidity, wind speed, and forecasts easily. Receive alerts for severe weather conditions. Access hourly and weekly forecasts. Customize notifications for your favorite locations. View interactive weather maps. Plan outdoor activities confidently. Stay informed about climate changes locally and globally. Reliable and fast updates whenever you need them.",
+        "size": 25,
+        "downloads": "900K",
+        "reviews": "1.2K",
+        "ratingAvg": "4.1",
+        "ratings": [
+            { "name": "1 star", "count": 90 },
+            { "name": "2 star", "count": 130 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 380 },
+            { "name": "5 star", "count": 350 }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Finance Manager",
+        "companyName": "MoneyTech",
+        "image": "https://picsum.photos/id/114/200/300",
+        "description": "Track expenses and manage budgets efficiently. Create monthly budgets, categorize spending, and monitor transactions. Receive alerts for overspending and upcoming bills. Analyze spending habits with detailed charts and insights. Set financial goals and track progress over time. Export reports for tax purposes or personal records. Sync across multiple devices to access anytime. Optimize your finances and save smarter. Gain control over your money and plan for the future confidently.",
+        "size": 32,
+        "downloads": "1.3M",
+        "reviews": "1.8K",
+        "ratingAvg": "4.4",
+        "ratings": [
+            { "name": "1 star", "count": 100 },
+            { "name": "2 star", "count": 150 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 600 },
+            { "name": "5 star", "count": 730 }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "ChatMaster",
+        "companyName": "ComTech",
+        "image": "https://picsum.photos/id/115/200/300",
+        "description": "Instant messaging with privacy and security. Send text, voice, and video messages instantly. Create group chats and share media files. End-to-end encryption keeps conversations secure. Customize themes and notification settings. Access chat history across multiple devices. Use stickers, emojis, and GIFs to express yourself. Search for messages quickly. Stay connected with friends, family, and colleagues anytime, anywhere.",
+        "size": 48,
+        "downloads": "2.8M",
+        "reviews": "3.5K",
+        "ratingAvg": "4.5",
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 250 },
+            { "name": "3 star", "count": 500 },
+            { "name": "4 star", "count": 900 },
+            { "name": "5 star", "count": 1650 }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Language Guru",
+        "companyName": "EduTech",
+        "image": "https://picsum.photos/id/116/200/300",
+        "description": "Learn new languages with ease. Interactive lessons cover speaking, reading, listening, and writing. Track progress and receive feedback on performance. Use flashcards, quizzes, and games for effective memorization. Practice pronunciation with speech recognition tools. Access a library of cultural content for contextual learning. Connect with other learners and join challenges. Set daily goals and reminders. Make learning fun, efficient, and consistent.",
+        "size": 36,
+        "downloads": "2.2M",
+        "reviews": "2.4K",
+        "ratingAvg": "4.6",
+        "ratings": [
+            { "name": "1 star", "count": 120 },
+            { "name": "2 star", "count": 160 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 700 },
+            { "name": "5 star", "count": 1120 }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Kids Fun",
+        "companyName": "PlaySoft",
+        "image": "https://picsum.photos/id/117/200/300",
+        "description": "Educational and fun games for kids. Encourage creativity, logic, and learning through interactive games. Colorful graphics and engaging stories keep children entertained. Track learning progress and achievements. Access games in various subjects like math, science, and language. Safe environment with parental controls. Challenge friends and share scores. Boost problem-solving and critical thinking. Perfect for children of all ages to learn while having fun.",
+        "size": 40,
+        "downloads": "1.1M",
+        "reviews": "1.4K",
+        "ratingAvg": "4.3",
+        "ratings": [
+            { "name": "1 star", "count": 90 },
+            { "name": "2 star", "count": 140 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 400 },
+            { "name": "5 star", "count": 470 }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Cooking Guide",
+        "companyName": "FoodTech",
+        "image": "https://picsum.photos/id/118/200/300",
+        "description": "Recipes and cooking tips for home chefs. Explore thousands of recipes with step-by-step instructions. Filter recipes by ingredients, cuisine, and difficulty. Save favorite recipes for quick access. Watch video tutorials for complex dishes. Plan meals and create shopping lists. Get nutritional information and serving sizes. Share recipes with friends and family. Learn cooking techniques and improve culinary skills effortlessly.",
+        "size": 29,
+        "downloads": "980K",
+        "reviews": "1.6K",
+        "ratingAvg": "4.2",
+        "ratings": [
+            { "name": "1 star", "count": 100 },
+            { "name": "2 star", "count": 150 },
+            { "name": "3 star", "count": 350 },
+            { "name": "4 star", "count": 450 },
+            { "name": "5 star", "count": 600 }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Podcast Hub",
+        "companyName": "SoundLab",
+        "image": "https://picsum.photos/id/119/200/300",
+        "description": "Listen to trending podcasts anytime. Browse categories like news, entertainment, education, and more. Subscribe to favorite podcasts for instant updates. Download episodes for offline listening. Rate and review podcasts to share feedback. Create personalized playlists. Discover new content through recommendations. Enjoy high-quality audio streaming. Stay informed and entertained on the go.",
+        "size": 52,
+        "downloads": "1.5M",
+        "reviews": "1.9K",
+        "ratingAvg": "4.5",
+        "ratings": [
+            { "name": "1 star", "count": 110 },
+            { "name": "2 star", "count": 180 },
+            { "name": "3 star", "count": 320 },
+            { "name": "4 star", "count": 600 },
+            { "name": "5 star", "count": 690 }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Mind Relax",
+        "companyName": "CalmTech",
+        "image": "https://picsum.photos/id/120/200/300",
+        "description": "Meditation and relaxation app for mental well-being. Guided meditations, breathing exercises, and mindfulness sessions. Track your daily practice and progress. Customize sessions based on duration and focus area. Relaxing sounds and ambient music enhance the experience. Set reminders to meditate regularly. Access meditation programs for stress, sleep, and focus. Join challenges to stay motivated. Improve mental clarity and reduce anxiety effectively.",
+        "size": 37,
+        "downloads": "1.7M",
+        "reviews": "2.1K",
+        "ratingAvg": "4.6",
+        "ratings": [
+            { "name": "1 star", "count": 90 },
+            { "name": "2 star", "count": 120 },
+            { "name": "3 star", "count": 280 },
+            { "name": "4 star", "count": 700 },
+            { "name": "5 star", "count": 910 }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "NewsFlash",
+        "companyName": "InfoTech",
+        "image": "https://picsum.photos/id/121/200/300",
+        "description": "Breaking news updates instantly. Access headlines from trusted sources around the world. Customize news feed by topics and regions. Read full articles with multimedia content. Share stories with friends and social networks. Save articles for offline reading. Receive notifications for important updates. Track trending topics and events. Stay informed on politics, sports, tech, and entertainment.",
+        "size": 31,
+        "downloads": "1.2M",
+        "reviews": "1.8K",
+        "ratingAvg": "4.1",
+        "ratings": [
+            { "name": "1 star", "count": 100 },
+            { "name": "2 star", "count": 160 },
+            { "name": "3 star", "count": 300 },
+            { "name": "4 star", "count": 500 },
+            { "name": "5 star", "count": 740 }
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Car Pool",
+        "companyName": "RideShareX",
+        "image": "https://picsum.photos/id/122/200/300",
+        "description": "Share rides and save money with friends and neighbors. Find nearby carpool options easily. Schedule rides in advance and track trips. Split costs transparently among passengers. Rate drivers and passengers for safety. Access real-time traffic and route suggestions. Receive notifications for ride updates. Connect with a community of reliable users. Reduce commuting expenses and environmental impact.",
+        "size": 44,
+        "downloads": "890K",
+        "reviews": "1.3K",
+        "ratingAvg": "4.2",
+        "ratings": [
+            { "name": "1 star", "count": 90 },
+            { "name": "2 star", "count": 140 },
+            { "name": "3 star", "count": 260 },
+            { "name": "4 star", "count": 400 },
+            { "name": "5 star", "count": 460 }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "SportsLive",
+        "companyName": "GameTech",
+        "image": "https://picsum.photos/id/123/200/300",
+        "description": "Live scores and match updates for sports enthusiasts. Track favorite teams and leagues instantly. Access live commentary, statistics, and player info. Receive notifications for goals, scores, and game events. Analyze past matches with detailed stats. Follow multiple sports like football, cricket, basketball, and more. Share scores and updates with friends. Stay connected to sports action anytime, anywhere.",
+        "size": 41,
+        "downloads": "1.9M",
+        "reviews": "2.2K",
+        "ratingAvg": "4.4",
+        "ratings": [
+            { "name": "1 star", "count": 120 },
+            { "name": "2 star", "count": 170 },
+            { "name": "3 star", "count": 330 },
+            { "name": "4 star", "count": 600 },
+            { "name": "5 star", "count": 1030 }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "CryptoWallet",
+        "companyName": "BlockChainX",
+        "image": "https://picsum.photos/id/124/200/300",
+        "description": "Securely store and trade cryptocurrencies. Track portfolio performance with real-time updates. Send and receive coins with ease. Access exchange rates and historical charts. Manage multiple crypto wallets securely. Set price alerts and notifications. Analyze investment trends and insights. Learn about new coins and market developments. Stay in control of your crypto assets safely.",
+        "size": 46,
+        "downloads": "2.1M",
+        "reviews": "2.7K",
+        "ratingAvg": "4.3",
+        "ratings": [
+            { "name": "1 star", "count": 150 },
+            { "name": "2 star", "count": 200 },
+            { "name": "3 star", "count": 400 },
+            { "name": "4 star", "count": 850 },
+            { "name": "5 star", "count": 1150 }
+        ]
+    }
+]
