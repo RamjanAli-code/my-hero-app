@@ -2,9 +2,10 @@
 import download from '../../assets/icon-downloads.png';
 import rating from '../../assets/icon-ratings.png';
 import review from '../../assets/icon-review.png';
-import { useLoaderData, } from 'react-router';
+import { useLoaderData, useNavigate, } from 'react-router';
 import Rating from '../Rating/Rating';
 const Description = () => {
+  const navigate=useNavigate();
     const data=useLoaderData();
      console.log(data);
 
@@ -37,7 +38,7 @@ const Description = () => {
             </div>
           </div>
 
-          <button className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
+          <button onClick={()=>navigate('/Installations')} className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
           </div>
         </div>
         <div className='text-black bg-green-600'>

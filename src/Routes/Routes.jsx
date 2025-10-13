@@ -6,6 +6,7 @@ import Allapps from '../Allapps/Allapps';
 import Description from '../pages/Description/Description';
 import Error from '../Error/Error';
 import ErrorApp from '../ErrorApp/ErrorApp';
+import Installations from '../Installations/Installations';
 
 
 
@@ -42,7 +43,7 @@ children:[
    children:[
     {
       path:"notfound",
-      element:<ErrorApp/>,
+      errorElement:<ErrorApp/>,
     },
    ],
 },
@@ -56,6 +57,12 @@ errorElement:<Error/>,
   path:"*",
   element:<Error/>,
 
+},
+{
+  path:"/Installations",
+   element:<Installations/>,
+    loader:loader,
+    errorElement:<Error/>,
 },
 
 ],

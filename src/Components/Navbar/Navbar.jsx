@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to="/Allapps">Apps</Link>
 
         </li>
-        <li><Link to="/">Installations</Link></li>
+        <li><Link to="/Installations">Installations</Link></li>
       </ul>
         
     </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
       <li>
       <Link to="/Allapps">Apps</Link>
       </li>
-   <li><Link to="/">Installations</Link></li>
+   <li><Link to="/Installations">Installations</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
