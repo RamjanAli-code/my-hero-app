@@ -15,8 +15,8 @@ const App = ({oneApp}) => {
                   <h2 className='text-2xl text-black items-start w-11/12 mx-auto'>{oneApp.title}</h2>
                <div className='flex justify-between  w-11/12 mx-auto'>
               
-               <div className=' rounded-sm p-[2px] text-green-400 bg-green-200 flex items-center justify-center '><img className='h-[20px]' src={download} alt="" /><span className='ml-2'>9M</span></div> 
-               <div className='rounded-sm p-[2px] text-amber-500 bg-amber-200 flex items-center justify-center '><img className='h-[20px]' src={rating} alt="" /><span className='ml-2'>5</span></div>
+               <div className=' rounded-sm p-[2px] text-green-400 bg-green-200 flex items-center justify-center '><img className='h-[20px]' src={download} alt="" /><span className='ml-2'>{oneApp.downloads}</span></div> 
+               <div className='rounded-sm p-[2px] text-amber-500 bg-amber-200 flex items-center justify-center '><img className='h-[20px]' src={rating} alt="" /><span className='ml-2'>{oneApp.ratingAvg}</span></div>
                </div>
                
             </div>

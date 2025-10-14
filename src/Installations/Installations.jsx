@@ -14,13 +14,12 @@ const Installations = () => {
   }
      const handleSort = (val) => {
     let sortedApps = [...installed];
-    if (val === 'size') {
+    if (val === 'Low') {
       sortedApps.sort((a, b) => a.size - b.size);
     }
-       else if (val === 'name') {
-      sortedApps.sort((a, b) => a.title.localeCompare(b.title));
+       else if (val === 'High') {
+      sortedApps.sort((a, b) =>  b.size - a.size);
     }
-
     setInstalled(sortedApps);
     setSorted(val);
   }
@@ -36,9 +35,9 @@ const Installations = () => {
                     <fieldset className="fieldset ">
   
   <select value={sorted}  onChange={(e) => handleSort(e.target.value)} defaultValue="Sort" className="select bg-white text-black border border-gray-300">
-    <option disabled>Sort</option>
-    <option value="size">Sort By Size</option>
-    <option value="name">Sort By Name</option>
+    <option >Sort</option>
+    <option value="Low">Low-to-High</option>
+    <option value="High">High-to-Low</option>
   </select>
  
 </fieldset>
