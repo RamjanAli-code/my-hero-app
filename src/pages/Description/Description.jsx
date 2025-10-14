@@ -4,6 +4,8 @@ import rating from '../../assets/icon-ratings.png';
 import review from '../../assets/icon-review.png';
 import {  useLoaderData, useNavigate, } from 'react-router';
 import Rating from '../Rating/Rating';
+import { ToastContainer, toast } from 'react-toastify';
+
 const Description = () => {
   const data=useLoaderData();
  const navigate = useNavigate();
@@ -14,8 +16,9 @@ const Description = () => {
 
       const updatedList = [...existing, data];
       localStorage.setItem('installList', JSON.stringify(updatedList));
-      alert(`${data.title} installed successfully!`);
-    navigate(`/Installations/${data.id}`);
+      // alert(`${data.title} installed successfully!`);
+      toast.success(`${data.title} installed!`, { autoClose: 1500 });
+   setTimeout(()=> navigate(`/Installations/${data.id}`),1500);
   }
 
    return (
@@ -47,7 +50,8 @@ const Description = () => {
             </div>
           </div>
 
-          <button onClick={install} className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
+          <button onClick={install}  className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
+              <ToastContainer />
           </div>
         </div>
         <div className='text-black bg-green-600'>

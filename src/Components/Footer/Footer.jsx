@@ -4,13 +4,14 @@ import { Twitter } from 'lucide-react';
 import { Instagram } from 'lucide-react';
 import { Youtube } from 'lucide-react';
 import logo from '../../assets/logo.png';
+import { Link } from 'react-router';
 const Footer = () => {
     return (
       <footer className="  bg-neutral mt-20 ">
-        <div className='flex items-center justify-end  md:items-center md:justify-center flex-row-reverse p-15 h-10'>
+        <Link to="/" className='flex items-center justify-end  md:items-center md:justify-center flex-row-reverse p-15 h-10'>
           <h1>HERO.IO</h1>
           <img className='h-[60px] mr-5' src={logo} alt="" />
-        </div>
+        </Link>
 <div className='footer text-neutral-content p-15  grid grid-cols-2 gap-10 md:grid-cols-4 '>
     <nav>
     <h6 className="footer-title">Services</h6>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github } from 'lucide-react';
 import logo from '../../assets/logo.png';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 
 const Navbar = () => {
@@ -16,12 +16,16 @@ const Navbar = () => {
         <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow text-gray-900">
-        <li><Link to="/">Home</Link></li>
+        <li><NavLink>
+          <NavLink to="/" className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Home</NavLink>
+          </NavLink></li>
         <li>
-          <Link to="/Allapps">Apps</Link>
+          <NavLink to="/Allapps"  className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Apps</NavLink>
 
         </li>
-        <li><Link to="/Installations">Installations</Link></li>
+        <li>
+         <NavLink to="/Installations/:id" className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Installations</NavLink>
+        </li>
       </ul>
         
     </div>
@@ -29,11 +33,13 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex text-gray-900">
     <ul className="menu menu-horizontal px-1">
-     <li><Link to="/">Home</Link></li>
+     <li>
+          <NavLink to="/" className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Home</NavLink>
+          </li>
       <li>
-      <Link to="/Allapps">Apps</Link>
+     <NavLink to="/Allapps"  className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Apps</NavLink>
       </li>
-   <li><Link to="/Installations">Installations</Link></li>
+   <li><NavLink to="/Installations/:id" className={({isActive})=>isActive?'text-purple-600  underline underline-offset-2':''}>Installations</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">

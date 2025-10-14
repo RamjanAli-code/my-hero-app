@@ -1,7 +1,6 @@
 import React from 'react';
 import error from '../assets/error-404.png';
 import { Link } from 'react-router';
-// import { useRouteError } from 'react-router';
 const Error = () => {
     return (
        <div className=' flex flex-col items-center justify-center mt-10 '>

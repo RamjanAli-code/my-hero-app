@@ -43,7 +43,7 @@ children:[
    children:[
     {
       path:"notfound",
-      errorElement:<ErrorApp/>,
+      element:<ErrorApp/>,
     },
    ],
 },

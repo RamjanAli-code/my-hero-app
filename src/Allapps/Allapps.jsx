@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Outlet, useLoaderData, useNavigate } from 'react-router';
 import Apps from '../pages/Apps/Apps';
 import { Search } from 'lucide-react';
@@ -9,9 +9,14 @@ const Allapps = () => {
     const [search,setSearch]=useState('');
     const navigate=useNavigate();
     const filterData=data.filter(app=>app.title.toLowerCase().includes(search.toLowerCase()));
-    if(search&&filterData.length===0){
-        navigate('notfound');
-    }
+
+    useEffect(() => {
+  if (search && filterData.length === 0) {
+    const timeout = setTimeout(() => navigate('notfound'), 300);
+    return () => clearTimeout(timeout);
+  }
+}, [search, filterData, navigate]);
+
     const back=()=>{
         setSearch('');
         navigate('/Allapps');
@@ -25,7 +30,7 @@ const Allapps = () => {
                     </div>
                      <div className='flex justify-between m-2'>
                 <div className='text-black'>({filterData.length}) Apps Found</div>
-                <div className='text-black  border-gray-500 flex gap-1  items-center border'> <Search className='h-4 border-0' /><input  type="Search" placeholder='Search' value={search} onChange={e => setSearch(e.target.value)} /></div>
+                <div className='text-black  border-gray-500 flex gap-1  items-center border'> <Search className='h-4 border-0' /><input   type="Search" placeholder='Search' value={search} onChange={e => setSearch(e.target.value)} /></div>
             </div>
                     <div>
                         {filterData.length>0?(<Apps data={filterData}></Apps>):(<Outlet context={{back}}/>)}
