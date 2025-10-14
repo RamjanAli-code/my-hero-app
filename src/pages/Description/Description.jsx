@@ -2,12 +2,21 @@
 import download from '../../assets/icon-downloads.png';
 import rating from '../../assets/icon-ratings.png';
 import review from '../../assets/icon-review.png';
-import { useLoaderData, useNavigate, } from 'react-router';
+import {  useLoaderData, useNavigate, } from 'react-router';
 import Rating from '../Rating/Rating';
 const Description = () => {
-  const navigate=useNavigate();
-    const data=useLoaderData();
-     console.log(data);
+  const data=useLoaderData();
+ const navigate = useNavigate();
+
+  const install = () => {
+    const existing = JSON.parse(localStorage.getItem('installList')) || [];
+
+
+      const updatedList = [...existing, data];
+      localStorage.setItem('installList', JSON.stringify(updatedList));
+      alert(`${data.title} installed successfully!`);
+    navigate(`/Installations/${data.id}`);
+  }
 
    return (
 
@@ -38,7 +47,7 @@ const Description = () => {
             </div>
           </div>
 
-          <button onClick={()=>navigate('/Installations')} className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
+          <button onClick={install} className="btn btn-primary w-6/12">Install Now ({data.size} MB)</button>
           </div>
         </div>
         <div className='text-black bg-green-600'>
@@ -53,5 +62,3 @@ const Description = () => {
 };
 
 export default Description;
-
-

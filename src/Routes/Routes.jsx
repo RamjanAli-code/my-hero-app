@@ -59,9 +59,9 @@ errorElement:<Error/>,
 
 },
 {
-  path:"/Installations",
+  path:"/Installations/:id",
    element:<Installations/>,
-    loader:loader,
+    loader:appLoader,
     errorElement:<Error/>,
 },
 
