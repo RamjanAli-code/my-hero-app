@@ -41,8 +41,14 @@ children:[
    element:<Allapps/>,
     loader:loader,
    children:[
+  {
+   path: "/Allapps/:id",
+  loader: appLoader,
+  errorElement: <ErrorApp />,
+  },
+
     {
-      path:"notfound",
+      path:"/Allapps/notfound",
       element:<ErrorApp/>,
     },
    ],

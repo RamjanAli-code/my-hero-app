@@ -23,7 +23,7 @@ const Description = () => {
     localStorage.setItem('installList', JSON.stringify(updatedList));
     setInstalled(true);
     toast.success(`${data.title} installed!`, { autoClose: 1500 });
-    setTimeout(() => navigate(`/Installations/${data.id}`), 1500);
+    setTimeout(() => navigate(`/Installations/:id`), 1500);
   }
 
   return (

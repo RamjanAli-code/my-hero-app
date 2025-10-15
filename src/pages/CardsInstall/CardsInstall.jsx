@@ -23,8 +23,8 @@ const CardsInstall = ({updateApps,apps}) => {
      <h2 className="card-title text-black">{app.title}</h2>
         <div className='flex gap-3  w-full mx-auto p-1'>
                       
-                       <div className=' rounded-sm p-[2px] text-green-400 bg-green-200 flex items-center justify-center '><img className='h-[20px]' src={download} alt="" /><span className='ml-2'>{app.downloads}</span></div> 
-                       <div className='rounded-sm p-[2px] text-amber-500 bg-amber-200 flex items-center justify-center '><img className='h-[20px]' src={rating} alt="" /><span className='ml-2'>{app.ratingAvg}</span></div>
+                       <div className=' rounded-sm p-[2px]  text-green-300 flex items-center justify-center '><img className='h-[20px]' src={download} alt="" /><span className='ml-2'>{app.downloads}</span></div> 
+                       <div className='rounded-sm p-[2px] text-amber-500  flex items-center justify-center '><img className='h-[20px]' src={rating} alt="" /><span className='ml-2'>{app.ratingAvg}</span></div>
                         <div className='text-gray-400'>{app.size}MB</div>
     </div>
    </div>

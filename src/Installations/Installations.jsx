@@ -12,13 +12,20 @@ const Installations = () => {
     const handleUpdate = (newList) => {
       setInstalled(newList);
   }
+   const parseDownloads = (d) => {
+    if (typeof d === "string") {
+      if (d.includes("K")) return parseFloat(d) * 1000;
+      if (d.includes("M")) return parseFloat(d) * 1000000;
+    }
+    return parseFloat(d);
+  };
      const handleSort = (val) => {
     let sortedApps = [...installed];
     if (val === 'Low') {
-      sortedApps.sort((a, b) => a.size - b.size);
+      sortedApps.sort((a, b) => parseDownloads(a.downloads)- parseDownloads(b.downloads));
     }
        else if (val === 'High') {
-      sortedApps.sort((a, b) =>  b.size - a.size);
+      sortedApps.sort((a, b) =>  parseDownloads(b.downloads)- parseDownloads(a.downloads));
     }
     setInstalled(sortedApps);
     setSorted(val);
@@ -34,7 +41,7 @@ const Installations = () => {
                  <div className=''>
                     <fieldset className="fieldset ">
   
-  <select value={sorted}  onChange={(e) => handleSort(e.target.value)} defaultValue="Sort" className="select bg-white text-black border border-gray-300">
+  <select value={sorted}  onChange={(e) => handleSort(e.target.value)} defaultValue="sort" className="select bg-white text-black border border-gray-300">
     <option >Sort</option>
     <option value="Low">Low-to-High</option>
     <option value="High">High-to-Low</option>
@@ -44,7 +51,7 @@ const Installations = () => {
             </div> 
            
         </div>
-          <div className=''>
+          <div className=' '>
  <CardsInstall apps={installed} updateApps={handleUpdate} />
                
             </div>
